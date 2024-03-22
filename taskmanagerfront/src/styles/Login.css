@@ -1,0 +1,18 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  @media (min-width: 576px) {
+    .login-card {
+      max-width: 400px;
+    }
+  }
+  

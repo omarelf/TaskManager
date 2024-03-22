@@ -1,0 +1,111 @@
+.dashboard-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 24px;
+  width: 1000px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  }
+
+ 
+  .ant-list{
+    width:100%
+  }
+  
+  .dashboard-card {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-container {
+      padding: 8px;
+    }
+  
+    .demo-loadmore-list .ant-list-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .demo-loadmore-list .ant-list-item-action {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .dashboard-card .ant-btn {
+      width: 100%;
+    }
+  }
+
+  .demo-loadmore-list {
+    min-height: 350px;
+  }
+
+.tasks-list-container {
+  width: 90%; 
+  max-width: 400px; 
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  border-radius: 8px; 
+  position: relative; 
+  overflow: hidden;
+}
+
+.tasks-list-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1; 
+}
+
+.dashboard-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+}
+
+.task-title, .task-description, .task-status {
+  flex: 1; 
+  text-align: left; 
+  padding: 0 10px; 
+}
+
+.task-title {
+  flex-basis: 20%;
+}
+
+.task-description {
+  flex-basis: 60%; 
+}
+
+.task-status {
+  flex-basis: 20%; 
+}
+
+
+
