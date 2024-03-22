@@ -46,13 +46,11 @@ PORT=5000
 Unit Tests
 Run unit tests using:
 
-```bash
 npm test
 
 End-to-End Tests
 Ensure the application is running, and then execute end-to-end tests with:
 
-```bash
 npm run e2e
 
 
